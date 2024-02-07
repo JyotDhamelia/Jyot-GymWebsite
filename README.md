@@ -1,4 +1,29 @@
-<h1>This is the converted Website from HTML Website to React Website by Using Functional Components, Class Components and React Routers for Pathing.</h1>
+# Gym Website
+
+A website designed for a gym which will be a way to get admission in gym also gives information about gym like adress, email etc.
+it also showcases the gallery section which will give visitors a brief view of innerside of the gym. also provides functionality to contact gym via contact us module. 
+
+it is rewritten in javascript and react for better user experience it uses react router dom version 5 while nothing is changed in design axcept whole website is now converted to reactjs.
+
+## Tech & Tools
+
+**Client:** Html, Css, TailwindCSS, javascript, React
+
+**Server:** Vercel
+
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Example Color | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
+| Example Color | ![#111827](https://via.placeholder.com/10/111827?text=+) #111827 |
+| Example Color | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
+| Example Color | ![#6366F1](https://via.placeholder.com/10/6366F1?text=+) #6366F1 |
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at jyotdhamelia@gmail.com
 
 # Getting Started with Create React App
 
