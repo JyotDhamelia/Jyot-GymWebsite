@@ -8,7 +8,7 @@ const Enroll = () => {
             <header className="text-gray-400 bg-gray-900 body-font sticky top-0">
                 <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                     <div>
-                        <img src="./images/logo.png" height={70} width={70} />
+                        <img src="./images/logo.png" loading="lazy" height={70} width={70} />
                     </div>
                     <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
                         <span className="ml-3 text-xl"><span className="font-bold">Jyot</span>-Gym</span>
@@ -86,7 +86,7 @@ const Enroll = () => {
                 <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col justify-center items-center text-center">
                     <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
                         <div>
-                            <img src="./images/logo.png" height={70} width={70} />
+                            <img src="./images/logo.png" loading="lazy" height={70} width={70} />
                         </div>
                         <span className="ml-3 text-xl"><span className="font-bold">Jyot</span>-Gym</span>
                     </a>

@@ -12,7 +12,7 @@ function Navlinks(props) {
 //function for all gallery images
 function Gallery(props) {
   return (<><div className={props.width}>
-    <img alt="gallery" className={props.className} src={props.src} />
+    <img alt="gallery" loading="lazy" className={props.className} src={props.src} />
   </div></>);
 }
 
@@ -32,7 +32,7 @@ function Site() {
     <header className="text-gray-400 bg-gray-900 body-font sticky top-0">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <div>
-          <img src="./images/logo.png" height={70} width={70} />
+          <img src="./images/logo.png" loading="lazy" height={70} width={70} />
         </div>
         <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
           <span className="ml-3 text-xl"><span className="font-bold">Jyot</span>-Gym</span>
@@ -60,7 +60,7 @@ function Site() {
     <section className="text-gray-400 bg-gray-900 body-font">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
-          <img className="object-cover object-center rounded" alt="hero" src="https://source.unsplash.com/720x600?workout" />
+          <img className="object-cover object-center rounded" loading="lazy" alt="hero" src="https://source.unsplash.com/720x600?workout" />
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">No Pain No Gain
@@ -143,7 +143,7 @@ function Site() {
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col justify-center items-center text-center">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
           <div>
-            <img src="./images/logo.png" height={70} width={70} />
+            <img src="./images/logo.png" loading="lazy" height={70} width={70} />
           </div>
           <span className="ml-3 text-xl"><span className="font-bold">Jyot</span>-Gym</span>
         </a>
