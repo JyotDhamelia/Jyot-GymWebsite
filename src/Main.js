@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { Link } from 'react-router-dom';
@@ -26,7 +27,22 @@ function FormInputs(props) {
   </div></>);
 }
 
+
 function Site() {
+
+  const [gymImage, setGymImage] = useState('');
+
+  useEffect(() => {
+    // Fetch a random gym image from Unsplash API
+    fetch(`https://api.unsplash.com/photos/random?query=gym&client_id=WzAKreZybhiJo-eaQyKwpul8qLcAfWoiwm8DdZlxghg`)
+      .then(response => response.json())
+      .then(data => {
+        setGymImage(data.urls.regular);
+      })
+      .catch(error => console.error("Error fetching image:", error));
+  }, []);
+
+
   return (<><div>
     {/* Header */}
     <header className="text-gray-400 bg-gray-900 body-font sticky top-0">
@@ -58,25 +74,19 @@ function Site() {
 
     {/* banner */}
     <section className="text-gray-400 bg-gray-900 body-font">
-      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
-          <img className="object-cover object-center rounded" loading="lazy" alt="hero" src="./images/gym2.jpg" />
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
+            <img className="object-cover object-center rounded" loading="lazy" alt="hero" src={gymImage} />
+          </div>
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">No Pain No Gain</h1>
+            <span className="font-medium font-bold mb-4">Go To Gym and...</span>
+            <p className="mb-8 leading-relaxed">"Unleash Your Inner Athlete", "Elevate Your Fitness, Elevate Your Life", ...</p>
+          </div>
         </div>
-        <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">No Pain No Gain
-          </h1>
-          <span className="font-medium font-bold mb-4">Go To Gym and...</span>
-          <p className="mb-8 leading-relaxed">"Unleash Your Inner Athlete",
-            "Elevate Your Fitness, Elevate Your Life",
-            "Transform Your Body, Transform Your Mind",
-            "Unlock Your Potential, Ignite Your Passion",
-            "Push Your Limits, Break Barriers",
-            "Embrace the Challenge, Embrace the Change"</p>
-        </div>
-      </div>
-    </section>
-    <hr id="Gallery" />
-    {/* banner */}
+      </section>
+      <hr id="Gallery" />
+      {/* banner */}
 
     {/* gallery */}
     <section className="text-gray-400 bg-gray-900 body-font">
