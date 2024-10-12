@@ -1,97 +1,30 @@
-# Gym Website
+# JyotGym
 
-A website designed for a gym which will be a way to get admission in gym also gives information about gym like adress, email etc.
-it also showcases the gallery section which will give visitors a brief view of innerside of the gym. also provides functionality to contact gym via contact us module. 
+![Annotation 2024-10-12 110646](https://github.com/user-attachments/assets/f7ba192b-40ae-4c1f-91af-d4028af449e9)
 
-it is rewritten in javascript and react for better user experience it uses react router dom version 5 while nothing is changed in design axcept whole website is now converted to reactjs.
+# Live Demo
+- https://jyot-gym-website.vercel.app / https://jyot-gym-jyotdhameliagmailcoms-projects.vercel.app
 
-## Tech & Tools
+# Overview
+- A static gym website which showcases the dummy gym. it has some good features like gallery section which showcases the photos of the gym. it has contact us form which directly connects you to gym management with an email. it also has enrollment form which will help it's users to become customers. 
 
-**Client:** Html, Css, TailwindCSS, javascript, React
+# Features
+- Gallery section: it showcases the photos of the gym so that users will get easy way to see the gym online.
 
-**Server:** Vercel
+  ![Annotation 2024-10-12 112003](https://github.com/user-attachments/assets/8487f677-7c77-404e-bce3-c71976b24a3e)
 
-## Color Reference
+- Contact us form: it helps users to contact the management of the gym for solving their doubts online via email.
+- Enroll now form: it helps users to become the member in gym this form will email all the data to the management.
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
-| Example Color | ![#111827](https://via.placeholder.com/10/111827?text=+) #111827 |
-| Example Color | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
-| Example Color | ![#6366F1](https://via.placeholder.com/10/6366F1?text=+) #6366F1 |
+  ![Annotation 2024-10-12 112306](https://github.com/user-attachments/assets/a3ed979c-a823-4aa9-b419-c7fa313dc025)
 
+# Get Started
+- To get satrted with TaskTracker follow this steps:
+ 1. Clone the Repository: `https://github.com/JyotDhamelia/Jyot-GymWebsite.git`
+ 2. Navigate to the project directory: `Jyot-Gymwebsite`
+ 3. Install Dependacies: `npm install`
+ 4. Run the website: `npm start`
+ 5. Open the website in a browser: `http://localhost:3000`
 
-## Feedback
-
-If you have any feedback, please reach out to us at jyotdhamelia@gmail.com
-
-# Getting Started with Create React App
-
-This project was Tailwinded with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# License
+- This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
