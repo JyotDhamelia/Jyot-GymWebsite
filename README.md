@@ -22,7 +22,7 @@
   ![Annotation 2024-10-12 112306](https://github.com/user-attachments/assets/a3ed979c-a823-4aa9-b419-c7fa313dc025)
 
 # Get Started
-- To get satrted with TaskTracker follow this steps:
+- To get satrted with this project follow this steps:
  1. Clone the Repository: `https://github.com/JyotDhamelia/Jyot-GymWebsite.git`
  2. Navigate to the project directory: `Jyot-Gymwebsite`
  3. Install Dependacies: `npm install`
