@@ -25,7 +25,7 @@
 - To get satrted with this project follow this steps:
  1. Clone the Repository: `https://github.com/JyotDhamelia/Jyot-GymWebsite.git`
  2. Navigate to the project directory: `Jyot-Gymwebsite`
- 3. Install Dependancies: `npm install`
+ 3. Install Dependencies: `npm install`
  4. Run the website: `npm start`
  5. Open the website in a browser: `http://localhost:3000`
 
