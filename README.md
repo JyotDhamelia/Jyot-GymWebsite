@@ -9,7 +9,7 @@
 - A static gym website which showcases the dummy gym. it has some good features like gallery section which showcases the photos of the gym. it has contact us form which directly connects you to gym management with an email. it also has enrollment form which will help it's users to become customers.
 
 # Technology
-- Html, CSS, Java Script, React, Tailwind CSS
+- HTML, CSS, Java Script, React, Tailwind CSS
 
 # Features
 - Gallery section: it showcases the photos of the gym so that users will get easy way to see the gym online.
