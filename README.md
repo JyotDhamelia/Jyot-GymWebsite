@@ -9,7 +9,7 @@
 - A static gym website which showcases the dummy gym. it has some good features like gallery section which showcases the photos of the gym. it has contact us form which directly connects you to gym management with an email. it also has enrollment form which will help it's users to become customers.
 
 # Technology
-- Html, CSS, Java Script, React, Tailwind CSS
+- HTML, CSS, Java Script, React, Tailwind CSS
 
 # Features
 - Gallery section: it showcases the photos of the gym so that users will get easy way to see the gym online.
@@ -25,7 +25,7 @@
 - To get satrted with this project follow this steps:
  1. Clone the Repository: `https://github.com/JyotDhamelia/Jyot-GymWebsite.git`
  2. Navigate to the project directory: `Jyot-Gymwebsite`
- 3. Install Dependacies: `npm install`
+ 3. Install Dependencies: `npm install`
  4. Run the website: `npm start`
  5. Open the website in a browser: `http://localhost:3000`
 
