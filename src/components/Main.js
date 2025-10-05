@@ -77,7 +77,7 @@ function Site() {
           <div className="animate-pulse-slow">
             <img src="./images/logo.png" height={50} width={50} alt="Jyot Gym Logo" className="md:h-[50px] md:w-[50px] h-[40px] w-[40px]" />
           </div>
-          <span className="ml-2 text-lg md:text-xl font-medium text-white"><span className="font-bold gradient-text-fire">Jyot</span>-Gym</span>
+          <span className="ml-2 text-lg md:text-xl font-medium text-white"><span className="font-bold gradient-text-fire">Muscle</span>Maniacs</span>
         </div>
         <nav className="md:ml-auto md:mr-4 flex flex-wrap items-center text-sm md:text-base justify-center gap-2 md:gap-0">
           <a className="mr-5 hover:text-indigo-400 transition-colors duration-300 font-medium cursor-pointer" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Home</a>
@@ -199,10 +199,10 @@ function Site() {
     <footer id="footer" className="text-gray-400 bg-gray-900 body-font border-t border-gray-800">
       <div className="container px-5 py-4 mx-auto flex items-center justify-center flex-wrap gap-4 md:gap-8">
         <a className="flex title-font font-medium items-center text-white">
-          <span className="text-lg"><span className="font-bold gradient-text-fire">Jyot</span>-Gym</span>
+          <span className="text-lg"><span className="font-bold gradient-text-fire">Muscle</span>Maniacs</span>
         </a>
         <div className="flex items-center gap-4 flex-wrap justify-center">
-          <p className="text-xs text-gray-400">© {new Date().getFullYear()} Jyot-Gym</p>
+          <p className="text-xs text-gray-400">© {new Date().getFullYear()} MuscleManiacs</p>
           <p className="text-xs text-gray-400">|</p>
           <p className="text-xs text-gray-400">123 Fitness Avenue, Gym Nation, FT 12345</p>
         </div>
