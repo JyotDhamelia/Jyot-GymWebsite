@@ -1,9 +1,9 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Enroll from './Enroll.js';
-import ErrorPage from './Errorpage.js';
-import Main from './Main.js';
+import Enroll from './components/Enroll.js';
+import ErrorPage from './components/Errorpage.js';
+import Main from './components/Main.js';
+import './css/index.css';
 
 function MyRoutes() {
     return (
